@@ -11,7 +11,7 @@ import java.lang.annotation.Target;
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)
 @OnTransition
-public @interface StatesOnTreansition {
+public @interface StatesOnTransition {
     ArticleState[] source() default {};
 
     ArticleState[] target() default {};

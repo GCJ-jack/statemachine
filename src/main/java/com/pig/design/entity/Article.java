@@ -3,6 +3,7 @@ package com.pig.design.entity;
 
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.fasterxml.jackson.annotation.JsonFormat;
+import com.pig.design.enums.ArticleState;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
